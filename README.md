@@ -12,13 +12,13 @@ This project involved constructing a simple processor, and then adding additiona
 
 **Part 5:** The branch instructions were implemented as follows
 
-b: branch (no conditions, always branches)
-beq: branch if equal (to zero)
-bne: branch if not equal (to zero)
-bcc: branch if carry is clear
-bcs: branch if carry is set
-bpl: branch if positive
-bmi: branch if negative
+b: branch (no conditions, always branches)  
+beq: branch if equal (to zero)  
+bne: branch if not equal (to zero)  
+bcc: branch if carry is clear  
+bcs: branch if carry is set  
+bpl: branch if positive  
+bmi: branch if negative  
 
 **Part 6:** An assembly-language program was written for this processor. The program displayed a binary counter on the LED port, incrementing in an endless loop. The assembly program was converted to a MIF file. The existing memory block was replaced with this MIF file and the circuit was then tested on the DE1-SoC board.
 
